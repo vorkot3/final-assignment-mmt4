@@ -1,0 +1,1192 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.clear {
+    clear: both; 
+}
+
+
+/* ----------------------------- DARK TOGGLE --------------------------------*/
+
+body.dark, nav.dark, .site-container.dark, nav li.dark, .modal-content.dark {
+    background-color: #000000;
+    transition: .2s all ease;
+    color: #ffffff;
+}
+
+nav.dark img.logo {
+    content: url('../images/src/logo-dark.svg');
+}
+
+.site-container.dark h2, .site-container.dark h3, .burger-icon i.dark, #accordion h3.dark, .member-info.dark h4, .member-info.dark p, .modal-content.dark p, .video-container-content.dark{
+    color: #ffffff;
+    opacity: 1;
+}
+
+.member-info.dark .contact-button {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.modal.dark {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#accordion .ui-accordion-header-active.dark {
+    border-color: #0062ff;
+    color: #0062ff;
+}
+
+header ul a:hover.dark {
+    color: #0062ff;
+}
+
+
+/* ----------------------------- BANNER IMAGE SETTINGS-------------------------------*/
+
+
+#hero-image, #bottom-banner-image {
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+
+/* ----------------------------- NAV --------------------------------*/
+
+header { 
+    width: 100%;
+    color: #1D00FF;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+body {
+    padding-top: 102.4px;
+    background-color: #ffffff;
+    transition: .2s all ease;
+    color: #000000;
+}
+
+header, footer {
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    float: right;
+    text-transform: uppercase; 
+}
+
+img.logo {
+    height: 50%;
+    width: auto;
+    padding: 25px 0 0 100px;
+    
+}
+
+.logo-container {
+    height: 100px;
+}
+
+header ul li {
+    float: left;
+    margin-right: 100px;
+    line-height: 100px; 
+}
+
+
+header ul a:hover {
+    color: #000000;
+}
+
+nav div, nav ul {
+    display:inline-block;
+}
+
+nav {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+ul {  
+    padding-right: 100px;
+}
+
+.mobile-toggle {
+    width: 100%;
+    padding-left: 20px;
+    display: none;
+    box-sizing: border-box;
+}
+
+.burger-icon i {
+    color: #1D00FF;
+}
+
+/* ----------------------------- PAGE BANNER --------------------------------*/
+
+#hero-image {
+    background-image: linear-gradient( rgba(29, 0 , 255, 0.85), rgba(2, 11, 255, 0.7) ),
+    url(../images/src/background2@2x.png);  
+}
+
+
+.page-banner {
+    height: 600px;
+    color: #ffffff;
+    z-index: -1;
+}
+
+.page-banner-content {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.page-banner-content h1 {
+    padding-top: 5%;
+    font-size: 3.0em;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+}
+
+.page-banner-content span {
+    padding-top: 3%;
+    display: block;
+}
+
+.page-banner-content p {
+    padding-top: 5%;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    max-width: 65%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+
+/* ----------------------------- VIDEO SECTION --------------------------------*/
+
+.site-container h3 {
+    color: #1D00FF;
+    font-weight: 900;
+}
+
+#accordion h3{
+     color: #000000;
+}
+
+.site-content{
+    width: 100%;
+}
+
+.site-container {
+    background-color: #ffffff;
+    max-width: 80%;
+    margin: -100px auto 0 auto;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding-bottom: 300px;
+    
+}
+.site-padding {
+    padding: 40px 40px 0 40px
+}
+
+.video-container-content {
+    height: 100%;
+}
+
+#accordion {
+    padding-top: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#accordion h3 {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+#accordion h3 span {
+     line-height: 75px;
+     height: 74px;
+}
+
+
+#accordion .accordion-button{
+    float: right;
+    font-size: 0.8em;
+    text-transform:  uppercase;
+    padding: 10px 25px 10px 25px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.accordion-button#intro-button{
+    background-color: #FFAFE3;
+    color: #CC0085;
+    border-radius: 30px;
+}
+
+.accordion-button.workshop-button{
+    background-color: #D1E7FF;
+    color: #1D00FF;
+    border-radius: 30px;
+}
+
+
+.accordion-button.download-button{
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.header-checkmark.tutorial-completed {
+    float: none;
+    background-color: #00FF00;
+    padding: 12px 25px 6px 25px;
+    border-radius: 30px;
+    display: none;
+    
+}
+
+.accordion-button#download-button i{
+    padding-right: 10px;
+}
+
+.site-container {
+    color: #4B4B4B;
+}
+
+.ui-accordion-header {
+    border: 1px solid #EBEBEB;
+    height: 74px;
+}
+
+#accordion .ui-accordion-header-active {
+    color: #1D00FF;
+    border: 1px solid #1D00FF;
+}
+
+.arrow {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+
+.rotate{
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.rotate.down{
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.ui-state-active .fa-caret-right{
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+/*------------------------------VIDEO PLAYER---------------------------------*/
+
+
+#accordion div{
+    position: relative;
+}
+
+
+.video-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+}
+
+
+.button-visibility {
+    display: none;
+    cursor: pointer;
+}
+
+.button-visibility.hover {
+    display: inline-block;
+}
+
+
+.video-play, .video-rewind, .video-check, .video-forward {
+    background-color: #ffffff;
+    padding: 15px 22px 15px 12px;
+    text-align: center;
+    
+}
+
+
+.video-check, .video-rewind, .video-forward {
+    top: 51%;
+    padding: 22px 21px;
+}
+
+
+
+
+.video-forward{
+    margin-left: 100px;
+}
+
+.video-rewind {
+    margin-left: -100px;
+    padding: 22px 21px;
+    
+}
+
+.video-check {
+    margin-left: 200px;
+    background-color: 	#00FF00;
+    display: none;
+}
+
+/*-----------------------------------MODAL-------------------------------------*/
+
+.modal {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.modal-content {
+    background-color: #FFFFFF;
+    margin: 10% auto;
+    padding: 20px;
+    width: 400px;
+    height: 350px;
+    color: #1D00FF;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.7em;
+    position: relative;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+    -webkit-animation-name: openmodaltop;
+    -ms-animation-name: openmodaltop;
+    -moz-animation-name: openmodaltop;
+    animation-name: openmodaltop;
+    -webkit-animation-duration: 0.3s;
+    -ms-animation-duration: 0.3s;
+    -moz-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+}
+
+.modal-content p {
+     line-height: 250px;
+     clear: both; 
+}
+
+.close-modal{ 
+    float: right;
+    font-size: 1.5em;
+    animation-duration: 0.3s;
+}
+
+.close-modal:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+@-webkit-keyframes openmodaltop {
+  from {
+      top:-300px; 
+      opacity:0
+    }
+    
+  to {top:0; 
+      opacity:1
+    }
+    
+} 
+
+@-ms-keyframes openmodaltop {
+  from {
+      top:-300px; 
+      opacity:0
+    }
+  to {
+      top:0; 
+      opacity:1
+    }
+    
+} 
+
+
+@-moz-keyframes openmodaltop {
+  from {
+      top:-300px; 
+      opacity:0
+    }
+  to {
+      top:0; 
+      opacity:1
+    }
+    
+} 
+
+@keyframes openmodaltop {
+  from {
+      top:-300px; 
+      opacity:0
+    }
+  to {
+      top:0; 
+      opacity:1
+    }
+    
+} 
+
+/* ----------------------------- SUPPORT PAGE --------------------------------*/
+
+#support-title {
+    max-width: 80%;
+    padding-top: 100px;
+}
+
+.site-container h2 {
+    color: #1D00FF;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+    padding-top: 40px;
+    font-size: 2.5em;
+    letter-spacing: 0.01em;
+    max-width: 45%;
+    padding-bottom: 50px;
+
+}
+
+.support-members{
+    width: 50%;
+    float: left;
+    margin-bottom: 100px;
+}
+
+
+.member-photo {
+    float: left;
+}
+
+.member-info{
+    float: left;
+    padding: 20px 0 0 20px;
+    z-index: -1;
+}
+
+.member-photo{
+    width: 168px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.member-info h4, .member-info p{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.member-info p{
+    opacity: 0.2;
+}
+
+button.contact-button {
+    font-size: 1em;
+    padding: 7px 25px 7px 25px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    background-color: #000000;
+    color: #ffffff;
+    border-style: none;
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ----------------------------- BOTTOM BANNER --------------------------------*/
+
+#bottom-banner-image {
+    background-image: linear-gradient(to right, rgba(255, 175 , 227, 0.70), rgba(204, 0, 133, 0.85) ),
+    url(../images/src/expert-background@2x.png);  
+    background-position: 100% 0%;
+}
+
+
+.bottom-banner {
+    height: 450px;
+    color: #ffffff;
+
+}
+
+.bottom-banner-content {
+    text-align: center;
+    margin: auto;
+}
+
+.bottom-banner-content h2 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 3em;
+    color: #ffffff;
+    max-width: 30%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    padding-top: 60px;
+}
+
+.bottom-banner-content p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 100px;
+}
+
+
+button {
+    font-size: 1.5em;
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+#banner-button {
+    background-color: #1D00FF;
+    color: #FFAFE3;
+    border-style: none;
+    cursor: pointer;
+    
+}
+
+/* ----------------------------- FOOTER --------------------------------*/
+
+footer{
+    color: #ffffff;
+    background-color: #000000;  
+    height: 126px;
+
+}
+
+.footer-content {
+    width: 90%;
+    display: inline-block;
+    text-align: right;
+    padding-top: 50px;
+}
+
+footer p {
+    display: inline-block;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    
+}
+
+
+
+/* ----------------------------- FOOTER SLIDER --------------------------------*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 34px;
+  float: right;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+
+.slider .sun {
+    float: right;
+    width: 40%;
+    height: 65%;
+    margin-top: 6px;
+    margin-right: 2px;
+}
+
+.slider .moon {
+    float: left;
+    width: 40%;
+    height: 65%;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+
+input:checked + .slider {
+  background-color: #696969;
+}
+
+
+input:checked + .slider::before {
+  -webkit-transform: translateX(36px);
+  -ms-transform: translateX(36px);
+  -moz-transform: translateX(36px);
+  transform: translateX(36px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round::before {
+  border-radius: 50%;
+}
+
+/* ----------------------------- MEDIA QUERY --------------------------------*/
+
+@media screen and (max-width: 1040px) {
+
+    #accordion .accordion-button {
+        font-size: 0.8em;
+    }
+    
+   #accordion .download-button, #accordion .workshop-button {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    
+    .ui-accordion-header {
+        height: auto;
+    }
+    
+    #accordion .workshop-button {
+        width: 100px;
+    }
+    
+    #accordion .download-button {
+        width: 130px;
+    }
+    
+    .video-button {
+        top: 47%;
+        left: 50%;
+    }
+    
+     .video-check, .video-rewind, .video-forward {
+        top: 49%;
+        padding: 16px 15px;
+    }
+    
+     .video-check {
+        margin-left: 135px;
+    }
+    
+    .video-forward{
+        margin-left: 55px;
+    }
+
+    .video-rewind {
+        margin-left: -120px;
+    }
+    
+    .video-play {
+        margin-left: -40px;
+    }
+    
+}
+
+
+@media screen and (max-width: 960px) {
+
+    nav ul, nav ul li {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    body{
+        padding-top: 63px;
+    }
+
+    header ul li {
+        line-height: 60px;
+    }
+    
+    .mobile-toggle {
+        display: block;
+        padding-top: 20px;
+    }
+
+    nav ul {
+        width: 100%;
+        display: none;
+        background-color: #ffffff;
+    }
+    
+     nav ul li {
+        display: block;
+    }
+    
+    img.logo {
+         height: 85%;
+        padding: 15px 30px 0 0;
+    }
+    
+    .logo-container {
+        height: 40px;
+        width: auto;
+        float: right;
+    }
+     .burger-icon{
+        padding-top: 5px;
+        font-size: 1.3em;
+    }
+    
+    .active {
+        display: block;
+        animation-duration: 1s;
+    }
+    
+    .page-banner-content h1 {
+        font-size: 2.5em;
+    }
+
+
+    .page-banner-content p {
+        padding-top: 10%;
+        max-width: 80%;
+    }
+    
+    
+    .video-play, .video-rewind, .video-check, .video-forward {
+        padding: 10px 22px 10px 10px;
+
+    }
+    
+    .video-play img, .video-rewind img, .video-check img, .video-forward img{
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    .video-button {
+        top: 50%;
+        left: 50%;
+     
+    }
+
+    .video-check, .video-rewind, .video-forward {
+        top: 51%;
+        padding: 12px 10px;
+    }
+    
+    .video-check {
+        margin-left: 130px;
+    }
+    
+    .video-forward{
+        margin-left: 60px;
+    }
+
+    .video-rewind {
+        margin-left: -90px;
+    }
+    
+    .video-play {
+        margin-left: -20px;
+    }
+}
+
+
+@media screen and (max-width: 891px) {
+    
+    .bottom-banner-content h2{
+        font-size: 2.5em;
+        max-width: 50%;
+    }    
+    
+    button{
+        font-size: 1em;
+    }
+    
+    .page-banner-content h1 {
+        padding-top: 10%;
+        font-size: 2.3em;
+    }
+
+    .page-banner-content p {
+        padding-top: 10%;
+        font-size: 1.0em;
+        line-height: 1.3em;
+        max-width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+     .page-banner-content h1 {
+        padding-top: 10%;
+        font-size: 2em;
+    }
+
+    .page-banner-content p {
+        padding-top: 10%;
+        font-size: 1em;
+        line-height: 1.3em;
+        max-width: 90%;
+    }
+    
+    .site-container h2 {
+        font-size: 2em;
+        max-width: 60%;
+    }
+    
+    #accordion h3{
+        font-size: 1em;
+    }
+    
+     #accordion .workshop-button {
+        width: 80px;
+    }
+    
+    #accordion .download-button {
+        width: 110px;
+    }
+    
+    .header-checkmark.tutorial-completed img {
+        max-width: 25px;
+        max-height: 25px;
+    }
+    
+    .header-checkmark.tutorial-completed {
+        padding: 10px 20px 5px 20px
+    }
+    
+}
+
+
+@media screen and (max-width: 786px) {
+    .video-button {
+        position: relative;
+        
+    }
+    
+    .button-visibility {
+        display: inline-block;
+    }
+    
+      
+     .video-check {
+        margin-left: 20px;
+    }
+    
+    .video-forward{
+        margin-left: 70px;         
+    }
+
+    .video-rewind {
+        margin-left: -123px;
+        
+    }
+    
+    .video-play {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: -10px;
+    
+    }
+    
+    .video-play, .video-forward, .video-rewind {
+        background: #DCDCDC;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+    .bottom-banner-content p{
+        margin: 0 auto;
+        font-size: 0.9em;
+        line-height:normal;
+        padding: 40px 0 40px 0;
+        max-width: 80%;
+    }
+    
+    .bottom-banner-content h2{
+        max-width: 80%;
+    }
+    
+    .member-photo, .member-info, .support-members {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .support-members {
+        padding-bottom: 80px;
+    }
+    
+    .page-banner-content p {
+        padding-top: 10%;
+        font-size: 1.0em;
+        line-height: 1.3em;
+        max-width: 90%;
+    }
+    
+    .page-banner-content span {
+        padding-top: 5%;
+    }
+    
+     .site-container h2 {
+        font-size: 1.7em;
+        max-width: 60%;
+    }
+    
+    #accordion #intro-button {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    
+    #accordion #intro-button {
+        width: 40px;
+    }
+    
+    .video-play {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: -10px;
+    
+    }
+    
+    footer p{
+        font-size: 0.7em;
+        padding-top: 12px;
+    }
+    
+}
+
+
+@media screen and (max-width: 550px) {
+    
+    .video-play img, .video-rewind img, .video-check img, .video-forward img, .header-checkmark.tutorial-completed img{
+        max-width: 20px;
+        max-height: 20px;
+    }
+    
+    
+    .header-checkmark.tutorial-completed {
+        padding: 10px 15px 5px 15px
+    }
+    
+    .video-forward{
+        margin-left: 70px;         
+    }
+
+    .video-rewind {
+        margin-left: -104px;
+        
+    }
+    
+    .video-play {
+        margin-left: -10px;
+        padding: 10px 15px 10px 10px;
+    
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    
+     .page-banner-content p {
+        padding-top: 15%;
+        font-size: 0.9em;
+        line-height: 1.4em;
+        max-width: 100%;
+    }
+    
+    .page-banner-content h1 {
+        padding-top: 10%;
+        font-size: 1.7em;
+        max-width: 100%;
+    }
+    
+    .page-banner-content span {
+        padding-top: 5%;
+    }
+    
+     .site-container h2 {
+        font-size: 1.5em;
+        max-width: 70%;
+    }
+    
+    
+    .header-checkmark.tutorial-completed {
+        padding: 10px 15px 5px 15px
+    }
+    
+      #accordion h3 span{
+        font-size: 0.8em;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .modal-content {
+        width: 350px;
+        height: 350px;
+        font-size: 1.5em; 
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    
+    .modal-content {
+        width: 300px;
+        height: 320px;
+        font-size: 1.3em; 
+    }
+    
+    #accordion h3 {
+        font-size: 0.8em;
+    }
+    
+    .bottom-banner-content h2 {
+        font-size: 2em;
+    }
+        
+     #accordion .workshop-button {
+        width: 60px;
+    }
+    
+    #accordion .download-button {
+        width: 80px;
+    }
+    
+    #accordion #intro-button {
+        width: 35px;
+    }
+    
+    .page-banner-content p{
+        font-size: 0.7em;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+    }
+    
+     .video-play img, .video-rewind img, .video-check img, .video-forward img{
+        max-width: 12px;
+        max-height: 12px;
+    }
+    
+      
+    .video-play, .video-rewind, .video-check, .video-forward {
+        padding: 10px 14px 10px 10px;
+
+    }
+
+
+    .video-rewind {
+        margin-left: -90px;
+    }
+    
+    .video-forward{
+        margin-left: 60px;         
+    }
+
+    
+    .header-checkmark.tutorial-completed img {
+        max-width: 15px;
+        max-height: 15px;
+    }
+    
+    .header-checkmark.tutorial-completed {
+        padding: 10px 5px 5px 5px;
+    }
+    
+    .video-check{
+        padding: 7px 10px 8px 10px;
+        margin-left: 10px;
+    }
+    
+    .video-play{
+        margin-left: -15px;
+    }
+}
+
+
+
+@media screen and (max-width: 380px) { 
+    
+    #accordion h3{
+        font-size: 0.em;
+    }
+    
+    .bottom-banner-content h2 {
+        font-size: 1.7em;
+    }
+    
+}
+
+
+
+

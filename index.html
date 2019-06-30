@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:400,700&display=swap" rel="stylesheet">
+
+<title> Code 4 Kids </title>
+      
+</head>
+    
+<body>   
+    
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="index.html"><img class="logo" src="images/src/logo-light.svg" alt="page logo"></a>
+            </div>
+                <div class="mobile-toggle">
+                    <div class="burger-icon">
+                        <i class="fas fa-bars"></i>
+                    </div>
+            </div>
+            <ul id="nav-ul">
+                <li> <a href="index.html">Over ons</a></li>
+                <li> <a href="#"> Les materiaal </a></li> 
+                <li> <a href="#"> Contact </a></li> 
+            </ul>       
+            <div class="clear"></div>
+        </nav>        
+    </header>
+    
+    <main> 
+        
+        <section class="page-banner" id="hero-image">  
+                <div class="page-banner-content">
+                    <h1>Van beginner naar expert <span>Het lesmateriaal brengt je verder</span></h1>
+                    <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                </div>
+        </section>
+        
+        <section class="site-content">
+            <div class="site-container site-padding">
+                <div class="video-container-content">
+                    <h3>Playlist</h3>
+                    
+                        <div id="accordion">
+                            <div class="accordion-parent">
+                                <h3> 
+                                    <span>
+                                        <i class="fas fa-caret-right rotate arrow"></i> Algemene introductie 
+
+                                     </span>
+
+                                     <span class="header-checkmark tutorial-completed">    <img src="images/src/done%20icon.svg" alt="check"></span>
+
+
+                                        <a class="accordion-button" id="intro-button">Intro</a> 
+                                </h3>
+
+                                <div class="video-parent">
+                                    <video id='my-player' class="video-js"  data-setup='{"fluid": true}'>
+                                          <source src="video/toy-mp4.mp4" type="video/mp4">
+                                          <source src="video/toy-ogv.ogv" type="video/ogv">
+                                          <source src="video/toy-webm.webm" type="video/webm">
+                                    </video>
+                                    <a class="video-button video-play button-visibility"> <img src="images/src/play.svg" alt="play"></a>
+                                    <a class="video-button button-visibility video-rewind"> <img src="images/src/rewind%20icon.svg" alt="rewind"></a>
+                                    <a class="video-button button-visibility video-forward"> <img src="images/src/forward%20icon.svg" alt="forward"></a>
+                                    <a class="video-button video-check"> <img src="images/src/done%20icon.svg" alt="check"></a>
+                                </div>
+                            </div>
+
+                            
+                            <div class="accordion-parent">
+                                <h3>
+                                    <span>
+                                        <i class="fas fa-caret-right rotate arrow"></i>
+                                        Workshop 1: Kleuren met code 
+                                    </span>
+
+                                      <span class="header-checkmark tutorial-completed">    <img src="images/src/done%20icon.svg" alt="check"></span>
+
+                                    <a class="accordion-button workshop-button" >workshop</a> 
+
+                                    <a class="accordion-button download-button"><i class="fas fa-download"></i> Download</a>
+
+                                </h3>
+
+                               <div class="video-parent">
+                                  <video id='my-player2' class="video-js"  data-setup='{ "fluid": true}'>
+                                          <source src="video/sample-mp4.mp4" type="video/mp4">
+                                          <source src="video/sample-ogv.ogv" type="video/ogv">
+                                          <source src="video/sample-webm.webm" type="video/webm">
+                                  </video>
+                                    <a class="video-button button-visibility video-play"> <img src="images/src/play.svg" alt="play"></a>
+                                    <a class="video-button button-visibility video-rewind"> <img src="images/src/rewind%20icon.svg" alt="rewind"></a>
+                                   <a class="video-button button-visibility video-forward"> <img src="images/src/forward%20icon.svg" alt="forward"></a>
+                                    <a class="video-button video-check"> <img src="images/src/done%20icon.svg" alt="check"></a>
+                                </div>   
+                            </div>
+                            
+                            
+                            <div class="accordion-parent">
+                                 <h3>
+                                     <span>
+                                         <i class="fas fa-caret-right rotate arrow"></i>
+                                         Workshop 2: Vormen maken 
+                                     </span>
+
+
+                                    <span class="header-checkmark tutorial-completed">   
+                                        <img src="images/src/done%20icon.svg" alt="check"></span>
+
+                                     <a class="accordion-button workshop-button" >workshop</a>
+
+                                </h3>
+                              <div class="video-parent">
+                                     <video id='my-player3' class="video-js"  data-setup='{"fluid": true}'>
+                                          <source src="video/space-mp4.mp4" type="video/mp4">
+                                          <source src="video/space-ogv.ogv" type="video/ogv">
+                                          <source src="video/space-webm.webm" type="video/webm">
+                                     </video>
+                                   <a class="video-button button-visibility video-play"> <img src="images/src/play.svg" alt="play"></a>
+                                    <a class="video-button button-visibility video-rewind"> <img src="images/src/rewind%20icon.svg" alt="rewind"></a>
+                                  <a class="video-button button-visibility video-forward"> <img src="images/src/forward%20icon.svg" alt="forward"></a>
+                                    <a class="video-button video-check"> <img src="images/src/done%20icon.svg" alt="check"></a>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="accordion-parent">
+                                 <h3>  
+                                     <span>
+                                         <i class="fas fa-caret-right rotate arrow"></i>
+
+                                         Workshop 3: Beweging
+                                     </span>
+
+                                       <span class="header-checkmark tutorial-completed">   
+                                        <img src="images/src/done%20icon.svg" alt="check"></span>
+
+
+                                     <a class="accordion-button workshop-button" >workshop</a>
+
+                                     <a class="accordion-button download-button"><i class="fas fa-download"></i> Download</a>
+
+                                </h3>
+
+                               <div class="video-parent">
+                                    <video id='my-player4' class="video-js"  data-setup='{"fluid": true}'>
+                                          <source src="video/toy-mp4.mp4" type="video/mp4">
+                                          <source src="video/toy-ogv.ogv" type="video/ogv">
+                                          <source src="video/toy-webm.webm" type="video/webm">
+                                     </video>
+                                    <a class="video-button button-visibility video-play"> <img src="images/src/play.svg" alt="play"></a>
+                                    <a class="video-button button-visibility video-rewind"> <img src="images/src/rewind%20icon.svg" alt="rewind"></a>
+                                   <a class="video-button button-visibility video-forward"> <img src="images/src/forward%20icon.svg" alt="forward"></a>
+                                    <a class="video-button video-check"> <img src="images/src/done%20icon.svg" alt="check"></a>
+                                </div>
+                            </div>
+                            
+                            
+                        
+                            <div class="accordion-parent">
+                                <h3>
+
+                                   <span> 
+                                       <i class="fas fa-caret-right rotate arrow"></i>
+                                       Workshop 4: Variabelen gebruiken
+                                    </span>
+
+                                      <span class="header-checkmark tutorial-completed">   
+                                        <img src="images/src/done%20icon.svg" alt="check"></span>
+
+
+                                    <a class="accordion-button workshop-button"> workshop</a>
+                                </h3>
+                               <div class="video-parent">
+                                     <video id='my-player5' class="video-js"  data-setup='{"fluid": true}' >
+                                          <source src="video/toy-mp4.mp4" type="video/mp4">
+                                          <source src="video/toy-ogv.ogv" type="video/ogv">
+                                          <source src="video/toy-webm.webm" type="video/webm">
+                                     </video>
+                                   <a class="video-button button-visibility video-play"> <img src="images/src/play.svg" alt="play"></a>
+                                    <a class="video-button button-visibility video-rewind"> <img src="images/src/rewind%20icon.svg" alt="rewind"></a>
+                                   <a class="video-button button-visibility video-forward"> <img src="images/src/forward%20icon.svg" alt="forward"></a>
+                                    <a class="video-button video-check"> <img src="images/src/done%20icon.svg" alt="check"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <h3 id="support-title">Support</h3> 
+            
+                <h2>Kom je er niet uit? Wij helpen je graag verder</h2>
+
+                <div class="support-members">
+                    <div class="member-photo">
+                        <img src="images/src/kal@2x.png" alt="guy">
+                    </div> 
+                    
+                    <div class="member-info">
+                        <h4> Klaartje Klaassen</h4>
+                        <p>Hoofd contactpersoon</p>
+                        <button class="contact-button">email</button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                
+                <div class="support-members">
+                      <div class="member-photo">
+                        <img src="images/src/norman@2x.png" alt="guy">
+                    </div>
+                    
+                    <div class="member-info">
+                        <h4> Klaartje Klaassen</h4>
+                        <p>Hoofd contactpersoon</p>
+                        <button class="contact-button">email</button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                
+                  <div class="support-members">
+                      <div class="member-photo">
+                        <img src="images/src/giorgio@2x.png" alt="guy">
+                    </div>
+                      
+                      <div class="member-info">
+                        <h4> Klaartje Klaassen</h4>
+                        <p>Hoofd contactpersoon</p>
+                        <button class="contact-button">email</button>
+                    </div>
+                      <div class="clear"></div>
+                </div>
+                
+                  <div class="support-members">
+                      <div class="member-photo">
+                        <img src="images/src/alina@2x.png" alt="guy">
+                    </div>
+                      
+                      <div class="member-info">
+                        <h4> Klaartje Klaassen</h4>
+                        <p>Hoofd contactpersoon</p>
+                        <button class="contact-button">email</button> 
+                    </div> 
+                      <div class="clear"></div>
+                </div> 
+                    <div class="clear"></div>
+            </div>
+    </section>
+        
+    <div class="modal" id="video-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>            
+            <p> Op naar de volgende tutorial!</p>
+             
+        </div>        
+    </div>
+        
+        <section class="bottom-banner" id="bottom-banner-image">
+            <div class="bottom-banner-content">
+                
+                <h2>Klaar voor de volgende uitdaging?</h2>
+                
+                <p>In ons expertprogramma vind je lessen voor gevorderden </p>
+                
+                <button id="banner-button">kom maar op</button>
+            </div>
+        </section>
+        
+        
+    </main>  
+    
+    <footer> 
+        <div class="footer-content">
+              <p> switch theme </p>
+                <label class="switch">
+                  
+                  <input type="checkbox">
+                  
+                  <span class="slider round">
+                      
+                      <img class="moon" src="images/src/moon.svg"> 
+                      <img class="sun" src="images/src/sun.svg">
+                      
+                    <div class="clear"></div>
+                  </span>  
+                </label>
+        </div>
+        
+        
+    </footer>
+    
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="https://vjs.zencdn.net/7.5.4/video.js"></script>
+<script src="js/scripts.js"></script>    
+</body>
+
+</html>
